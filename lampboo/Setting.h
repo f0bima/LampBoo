@@ -1,3 +1,4 @@
+// HOST TANPA https:// dan / belakang
 #define FIREBASE_HOST "lampboo.firebaseio.com"
 #define FIREBASE_AUTH "JBqopt2O19EQRLfjLpep63QNDTWxmVoxGJZRtdH8"
 #define ssid "LampBoo!"

@@ -61,9 +61,9 @@ void loop() {
   else{  
     pinMode(led, 0);
     String pb_str = read_String(pb_add) + "/status";
-    int stt = Firebase.getString("LampBoo/status").toInt();
+    int stt = Firebase.getString(pb_str).toInt();
     Serial.print("number: ");
-    Serial.println(Firebase.getString("status"));
+    Serial.println(Firebase.getString(pb_str));
     digitalWrite(relay, stt);
   }  
   server.handleClient();
